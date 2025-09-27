@@ -18,7 +18,7 @@
     border: 2px solid rgb(244, 48, 48); /* Use a border for the radiating ring */
     border-radius: 50%;
     z-index: 1;
-    animation: pulse 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; /* Adjusted bezier curve for a more dynamic pulse */
+    animation: pulse 1.3s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; /* Adjusted bezier curve for a more dynamic pulse */
 }
 
 @keyframes pulse {
