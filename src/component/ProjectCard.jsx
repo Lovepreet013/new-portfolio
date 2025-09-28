@@ -1,6 +1,6 @@
 import { Github } from "lucide-react"
 
-const ProjectCard = ({src, name, link}) => {
+const ProjectCard = ({src, name, link, description}) => {
     return(
         <div 
             className=" flex my-4 group border-1 rounded-md border-gray-800 hover:border-gray-700 overflow-hidden w-full cursor-pointer hover:bg-[#131212]">
@@ -20,7 +20,7 @@ const ProjectCard = ({src, name, link}) => {
                 </div>
 
                 <p className="text-[14px] description mt-2">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, atque?
+                    {description}
                 </p>
             </div>
         </div>

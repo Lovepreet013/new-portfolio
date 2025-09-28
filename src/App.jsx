@@ -5,6 +5,7 @@ import Pulser from "./component/ui/Pulser"
 import ImgButton from "./component/ImgButton"
 import Work from "./component/Work"
 import Projects from "./component/Projects"
+import Footer from "./component/Footer"
 
 const aboutButtons = [
   {
@@ -206,7 +207,7 @@ function App() {
           <Work/>
         </div>
 
-        <div className="mt-4 pb-6 border-b-1 border-gray-800">
+        <div className="mt-4 pb-3 border-b-1 border-gray-800">
           <h1 className="text-2xl text-gray-200 font-light">Projects</h1>
           <div className="flex items-center justify-between">
             <p className="text-gray-400 text-[15px] mt-2">Here are some of my Projects</p>
@@ -221,6 +222,10 @@ function App() {
 
           <Projects/>
           
+        </div>
+
+        <div className="mt-4">
+          <Footer/>
         </div>
 
       </div>
