@@ -4,6 +4,7 @@ import Header from "./component/Header"
 import Pulser from "./component/ui/Pulser"
 import ImgButton from "./component/ImgButton"
 import Work from "./component/Work"
+import Projects from "./component/Projects"
 
 const aboutButtons = [
   {
@@ -44,62 +45,70 @@ const findButtons = [
 const langButtons = [
   {
     name : "JavaScript",
-    icon : "./public/javascript.svg",
+    icon : "./public/skills/javascript.svg",
   },
   {
     name : "HTML",
-    icon : "./public/html.svg",
+    icon : "./public/skills/html.svg",
   },
   {
     name : "CSS",
-    icon : "./public/css.svg",
+    icon : "./public/skills/css.svg",
   },
   {
     name : "Python",
-    icon : "./public/python.svg",
+    icon : "./public/skills/python.svg",
   }
 ]
 
 const framworks = [
   {
     name : "React.js",
-    icon : "./public/reactjs.svg",
+    icon : "./public/skills/reactjs.svg",
   },
   {
     name : "Node.js",
-    icon : "./public/nodejs.svg",
+    icon : "./public/skills/nodejs.svg",
   },
   {
     name : "Express.js",
-    icon : "./public/expressjs.svg",
+    icon : "./public/skills/expressjs.svg",
   },
   {
     name : "Tailwind CSS",
-    icon : "./public/tailwind.svg",
+    icon : "./public/skills/tailwind.svg",
   },
   {
     name : "Material UI",
-    icon : "./public/materialui.svg",
+    icon : "./public/skills/materialui.svg",
   }
   ,
   {
     name : "Redux Toolkit",
-    icon : "./public/redux.svg",
+    icon : "./public/skills/redux.svg",
   }
 ]
 
 const devTools = [
   {
     name : "Git",
-    icon : "./public/git.svg",
+    icon : "./public/skills/git.svg",
   },
   {
     name : "Github",
-    icon : "./public/github.svg",
+    icon : "./public/skills/github.svg",
   },
   {
     name : "VS Code",
-    icon : "./public/vscode.svg",
+    icon : "./public/skills/vscode.svg",
+  },
+  {
+    name : "Supabase",
+    icon : "./public/skills/supabase.png",
+  },
+  {
+    name : "Gemini",
+    icon : "./public/skills/gemini-color.png",
   }
 ]
 
@@ -195,6 +204,22 @@ function App() {
           </div>
 
           <Work/>
+        </div>
+
+        <div className="mt-4">
+          <h1 className="text-2xl text-gray-200 font-light">Projects</h1>
+          <div className="flex items-center justify-between">
+            <p className="text-gray-400 text-[15px] mt-2">Here are some of my Projects</p>
+            <a 
+              className="text-gray-400 text-[15px] mt-2 cursor-pointer hover:text-gray-300"
+              href="https://github.com/Lovepreet013"
+              target="_blank"
+            >
+                View all
+            </a>
+          </div>
+
+          <Projects/>
           
         </div>
 
