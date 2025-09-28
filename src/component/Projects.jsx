@@ -2,27 +2,27 @@ import ProjectCard from "./ProjectCard"
 
 const projects = [
     {
-      src : "../public/projects/AI-Journal.png",
+      src : "../projects/AI-Journal.png",
       name : "AI Journal App",
       link : "https://github.com/Lovepreet013/AI-Journal-App"
     },
     {
-        src : "../public/projects/basicDashboard.png",
+        src : "../projects/basicDashboard.png",
         name : "Basic Dashboard",
         link : "https://github.com/Lovepreet013/AI-Journal-App"
     },
     {
-        src : "../public/projects/conference.png",
+        src : "../projects/conference.png",
         name : "Conference Expense Planner",
         link : "https://github.com/Lovepreet013/AI-Journal-App"
     },
     {
-        src : "../public/projects/cli.png",
+        src : "../projects/cli.png",
         name : "CLI Note App",
         link : "https://github.com/Lovepreet013/AI-Journal-App"
     },
     {
-        src : "../public/projects/Sorting.png",
+        src : "../projects/Sorting.png",
         name : "Sorting Algo Visualizer",
         link : "https://github.com/Lovepreet013/AI-Journal-App"
     },

@@ -45,70 +45,70 @@ const findButtons = [
 const langButtons = [
   {
     name : "JavaScript",
-    icon : "./public/skills/javascript.svg",
+    icon : "./skills/javascript.svg",
   },
   {
     name : "HTML",
-    icon : "./public/skills/html.svg",
+    icon : "./skills/html.svg",
   },
   {
     name : "CSS",
-    icon : "./public/skills/css.svg",
+    icon : "./skills/css.svg",
   },
   {
     name : "Python",
-    icon : "./public/skills/python.svg",
+    icon : "./skills/python.svg",
   }
 ]
 
 const framworks = [
   {
     name : "React.js",
-    icon : "./public/skills/reactjs.svg",
+    icon : "./skills/reactjs.svg",
   },
   {
     name : "Node.js",
-    icon : "./public/skills/nodejs.svg",
+    icon : "./skills/nodejs.svg",
   },
   {
     name : "Express.js",
-    icon : "./public/skills/expressjs.svg",
+    icon : "./skills/expressjs.svg",
   },
   {
     name : "Tailwind CSS",
-    icon : "./public/skills/tailwind.svg",
+    icon : "./skills/tailwind.svg",
   },
   {
     name : "Material UI",
-    icon : "./public/skills/materialui.svg",
+    icon : "./skills/materialui.svg",
   }
   ,
   {
     name : "Redux Toolkit",
-    icon : "./public/skills/redux.svg",
+    icon : "./skills/redux.svg",
   }
 ]
 
 const devTools = [
   {
     name : "Git",
-    icon : "./public/skills/git.svg",
+    icon : "./skills/git.svg",
   },
   {
     name : "Github",
-    icon : "./public/skills/github.svg",
+    icon : "./skills/github.svg",
   },
   {
     name : "VS Code",
-    icon : "./public/skills/vscode.svg",
+    icon : "./skills/vscode.svg",
   },
   {
     name : "Supabase",
-    icon : "./public/skills/supabase.png",
+    icon : "./skills/supabase.png",
   },
   {
     name : "Gemini",
-    icon : "./public/skills/gemini-color.png",
+    icon : "./skills/gemini-color.png",
   }
 ]
 
@@ -121,7 +121,7 @@ function App() {
         <div className="flex mt-8">
           <div className="w-26 h-26 overflow-hidden rounded-full">
             <img 
-              src="../public/img2.png"
+              src="../img2.png"
               alt="portfolio image"
               className="w-full h-full object-cover transition-transform duration-200 hover:scale-115 cursor-pointer" 
             />
@@ -206,7 +206,7 @@ function App() {
           <Work/>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4 pb-6 border-b-1 border-gray-800">
           <h1 className="text-2xl text-gray-200 font-light">Projects</h1>
           <div className="flex items-center justify-between">
             <p className="text-gray-400 text-[15px] mt-2">Here are some of my Projects</p>
