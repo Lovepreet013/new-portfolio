@@ -5,19 +5,19 @@ const CertificatesSection = () => {
     const certificates = [
         {
             name : "Developing Front-End Apps with React",
-            src : "./public/IBM.png",
+            src : "./IBM.png",
             link : "https://www.coursera.org/account/accomplishments/verify/69Z6FUEIBO0D",
             company : "IBM"
         },
         {
             name : "Developing Back-End Apps with Node.js and Express",
-            src : "./public/IBM.png",
+            src : "./IBM.png",
             link : "https://www.coursera.org/account/accomplishments/verify/5I2DAY8CYDT7",
             company : "IBM"
         },
         {
             name : "JavaScript: The Hard Parts",
-            src : "./public/frontend-masters-social-preview.png",
+            src : "./frontend-masters-social-preview.png",
             link : "https://drive.google.com/file/d/1eNgRYOe0U3U12CeiecsY9nII09C6ca4H/view",
             company : "Frontend Masters"
         },

@@ -16,7 +16,7 @@ const ProjectCard = ({ src, name, link, description }) => {
 
       <div className="flex flex-col justify-center px-4 py-3 flex-2 text-gray-500">
         <div className="flex items-center justify-between">
-          <h2 className="text-[19px] text-gray-200 font-medium">{name}</h2>
+          <h2 className="text-[16px] text-gray-200 font-medium">{name}</h2>
           <a
             href={link}
             className="hover:text-gray-100 transition-colors"
@@ -27,7 +27,7 @@ const ProjectCard = ({ src, name, link, description }) => {
           </a>
         </div>
 
-        <p className="text-[14px] mt-2 description">{description}</p>
+        <p className="text-[15px] mt-2 description">{description}</p>
       </div>
     </div>
     </a>
