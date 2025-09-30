@@ -4,8 +4,10 @@ import Header from "./component/Header"
 import Pulser from "./component/ui/Pulser"
 import ImgButton from "./component/ImgButton"
 import Work from "./component/Work"
-import Projects from "./component/Projects"
 import Footer from "./component/Footer"
+import Project from "./component/Project"
+import { NavLink } from "react-router"
+import { useEffect, useState } from "react"
 
 const aboutButtons = [
   {
@@ -114,8 +116,18 @@ const devTools = [
 ]
 
 function App() {
+  const [loaded, setLoaded] = useState(false);
+
+  // Trigger blur removal after mount
+  useEffect(() => {
+    const timer = setTimeout(() => setLoaded(true), 100); // small delay for smoothness
+    return () => clearTimeout(timer);
+  }, [])
+
+
   return(
-    <div>
+    <div className={`transition-all duration-700 ease-in-out ${loaded ? "blur-0 opacity-100" : "blur-lg opacity-0"}
+    `}>
       <Header/>
 
       <div className="max-w-[650px] px-4 mx-auto">
@@ -211,16 +223,14 @@ function App() {
           <h1 className="text-2xl text-gray-200 font-light">Projects</h1>
           <div className="flex items-center justify-between">
             <p className="text-gray-400 text-[15px] mt-2">Here are some of my Projects</p>
-            <a 
+            <p 
               className="text-gray-400 text-[15px] mt-2 cursor-pointer hover:text-gray-300"
-              href="https://github.com/Lovepreet013"
-              target="_blank"
             >
-                View all
-            </a>
+              <NavLink to="/projects">View all</NavLink>
+            </p>
           </div>
 
-          <Projects/>
+          <Project/>
           
         </div>
 
