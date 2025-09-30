@@ -34,7 +34,7 @@ const CertificatesSection = () => {
             {certificates.map((cert) => (
                 <a href={cert.link} key={cert.name} target="_blank">
                 <div className="flex border rounded-md p-1 border-gray-800 hover:border-gray-700 hover:bg-[#131212] my-4 transition-transform duration-300 hover:scale-101 ease-in-out">
-                    <div className=" h-12 w-12">
+                    <div className=" h-18 w-18 sm:h-12 sm:w-12">
                         <img src={cert.src} alt={cert.name} className="w-full h-full rounded-md object-cover"/>
                     </div>
                     <div className="mx-2 flex w-[90%] justify-between">
@@ -42,7 +42,7 @@ const CertificatesSection = () => {
                             <h1 className="text-gray-200">{cert.name}</h1>
                             <p className="text-gray-500 text-sm">{cert.company}</p>
                         </div>
-                        <p className="mt-2">
+                        <p className="mt-2 ml-2">
                         <ExternalLink size={20}/>
                         </p>
                     </div>
