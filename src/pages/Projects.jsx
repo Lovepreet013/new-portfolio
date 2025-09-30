@@ -1,8 +1,8 @@
 import { ArrowLeft, Github } from "lucide-react";
 import { NavLink } from "react-router";
 import { projects } from "../data/projects";
-import ProjectCard from "./ProjectCard";
 import { useEffect, useState } from "react";
+import ProjectCard from "../component/ui/ProjectCard";
 
 const allTags = ["All", "Vanilla JS", "React", "Node", "Fullstack", "CLI", "UI"]; // Updated tags
 
@@ -22,13 +22,15 @@ const Projects = () => {
 
   return (
     <div
-      className={`transition-all duration-600 ease-in-out ${
+      className={`transition-all duration-700 ease-in-out ${
         loaded ? "blur-0 opacity-100" : "blur-lg opacity-0"
       }`}
     >
       <div className="mt-4 max-w-[650px] mx-auto">
         <NavLink to="/">
-          <ArrowLeft />
+          <div className="ml-2">
+            <ArrowLeft />
+          </div>
         </NavLink>
       </div>
       <div className="max-w-[650px] px-4 mt-10 mx-auto py-4">
@@ -48,8 +50,8 @@ const Projects = () => {
               onClick={() => setSelectedTag(tag)}
               className={`px-3 py-1 rounded-md text-[13px] font-medium transition-colors duration-200 cursor-pointer ${
                 selectedTag === tag
-                  ? "bg-[#f43030c8] text-white border-[#f43030c8]"
-                  : "border-gray-900 border bg-[#18181B] text-gray-300 hover:border-[#f43030c8]"
+                  ? "bg-gray-900 text-white border border-gray-700"
+                  : "border-gray-900 border bg-[#18181B] text-gray-300 hover:border-gray-700"
               }`}
             >
               {tag}
