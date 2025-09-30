@@ -33,7 +33,7 @@ const CertificatesSection = () => {
 
             {certificates.map((cert) => (
                 <a href={cert.link} key={cert.name} target="_blank">
-                <div className="flex border rounded-md p-1 border-gray-800 items-center hover:border-gray-700 hover:bg-[#131212] my-4 transition-transform duration-300 hover:scale-101 ease-in-out">
+                <div className="flex border rounded-md p-1 border-gray-800 hover:border-gray-700 hover:bg-[#131212] my-4 transition-transform duration-300 hover:scale-101 ease-in-out">
                     <div className=" h-12 w-12">
                         <img src={cert.src} alt={cert.name} className="w-full h-full rounded-md object-cover"/>
                     </div>
