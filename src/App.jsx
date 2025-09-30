@@ -126,7 +126,7 @@ function App() {
 
 
   return(
-    <div className={`transition-all duration-700 ease-in-out ${loaded ? "blur-0 opacity-100" : "blur-lg opacity-0"}
+    <div className={`transition-all duration-600 ease-in-out ${loaded ? "blur-0 opacity-100" : "blur-lg opacity-0"}
     `}>
       <Header/>
 
