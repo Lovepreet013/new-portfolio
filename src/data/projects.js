@@ -67,10 +67,18 @@ export const projects = [
     {
         src: "../projects/Book Review.png",
         name: "Express Book Review App",
-        link: "https://github.com/Lovepreet013/Frontend/tree/main/Social%20News%20App",
+        link: "https://github.com/Lovepreet013/expressBookReviews",
         description:
           "A server-side application that stores, retrieves and manages book ratings and reviews.",
         tags: ["Node",],
     },
+    {
+      src: "../projects/Masonary layout.png",
+      name: "Masonary Layout",
+      link: "https://github.com/Lovepreet013/Frontend/tree/main/Masonary%20Layout",
+      description:
+        "Build a basic Masonary Layout with Grid and add also tried View Transitions for smooth content transitioning.",
+      tags: ["UI","Vanilla JS"],
+  },
   ];
   
