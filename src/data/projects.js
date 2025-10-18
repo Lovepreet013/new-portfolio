@@ -1,5 +1,13 @@
 export const projects = [
     {
+      src: "../projects/pokedex.png",
+      name: "Pokedex",
+      link: "https://github.com/Lovepreet013/Pokedex",
+      description:
+        "Build a Pokedex where user can get data about different pokemons. Used REACT QUERY for caching data.",
+      tags: ["UI","React"],
+    },
+    {
       src: "../projects/AI-Journal.png",
       name: "AI Journal App",
       link: "https://github.com/Lovepreet013/AI-Journal-App",
@@ -79,6 +87,7 @@ export const projects = [
       description:
         "Build a basic Masonary Layout with Grid and add also tried View Transitions for smooth content transitioning.",
       tags: ["UI","Vanilla JS"],
-  },
+    },
+
   ];
   
