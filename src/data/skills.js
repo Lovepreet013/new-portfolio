@@ -16,6 +16,7 @@ export const skills = [
         { name: "Node.js", icon: "./skills/nodejs.svg" },
         { name: "Express.js", icon: "./skills/expressjs.svg" },
         { name: "Tailwind CSS", icon: "./skills/tailwind.svg" },
+        { name: "Framer Motion", icon: "./skills/framer.svg" },
         { name: "Material UI", icon: "./skills/materialui.svg" },
         { name: "Redux Toolkit", icon: "./skills/redux.svg" },
       ],
