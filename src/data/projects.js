@@ -23,6 +23,16 @@ export const projects = [
         "App that allows the user to price out the expenses related to hosting a conference at a convention center",
       tags: ["React", "UI"],
     },
+
+    {
+      src: "../projects/flick.png",
+      name: "Flick Explore",
+      link: "https://github.com/Lovepreet013/Flick-Explore",
+      description:
+        "Build a Movie Database App allow users to search through the database and find details about the movies.",
+      tags: ["UI","React"],
+    },
+
     {
       src: "../projects/cli.png",
       name: "CLI Note App",
