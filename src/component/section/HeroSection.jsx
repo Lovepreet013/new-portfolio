@@ -13,7 +13,7 @@ const HeroSection = () => {
         {
           name : "Download CV",
           logo : <Download size={16}/>,
-          link : "https://drive.google.com/file/d/1MaSzCRGrrYQ6k9bJkU1eaB2pmUdPGG18/view"
+          link : "https://drive.google.com/file/d/1ADpbafyDsjUz3lUerfgCBE6YMVKkGN6B/view?usp=sharing"
         }
     ]
       
