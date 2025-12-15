@@ -16,6 +16,12 @@ const CertificatesSection = () => {
             company : "IBM"
         },
         {
+            name : "TypeScript 5+ Fundamentals",
+            src : "./frontend-masters-social-preview.png",
+            link : "https://drive.google.com/file/d/1-mVcyk04BNzeuXYU-zJEC--u5byovYCx/view?usp=sharing",
+            company : "Frontend Masters"
+        },
+        {
             name : "JavaScript: The Hard Parts",
             src : "./frontend-masters-social-preview.png",
             link : "https://drive.google.com/file/d/1eNgRYOe0U3U12CeiecsY9nII09C6ca4H/view",
