@@ -1,5 +1,13 @@
 export const projects = [
     {
+      src: "../projects/i-built-this.png",
+      name: "iBuiltThis",
+      link: "https://github.com/Lovepreet013/iBuiltThis",
+      description:
+        "Build a platform for creators to showcase their projects, AI Tools, SAAS and more using Next.js.",
+      tags: ["UI","React", "Fullstack"],
+    },
+    {
       src: "../projects/pokedex.png",
       name: "Pokedex",
       link: "https://github.com/Lovepreet013/Pokedex",
