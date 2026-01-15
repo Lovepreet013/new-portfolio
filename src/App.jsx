@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./component/ui/Header"
 import Work from "./component/section/Work"
 import Footer from "./component/ui/Footer"
@@ -31,6 +32,8 @@ function App() {
         <CertificatesSection/>
         <Footer/>
       </div>
+
+      <Analytics />
 
     </div>
   )
