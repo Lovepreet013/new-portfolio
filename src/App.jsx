@@ -6,6 +6,7 @@ import Project from "./component/section/Project"
 import HeroSection from "./component/section/HeroSection"
 import SkillSection from "./component/section/SkillSection"
 import CertificatesSection from "./component/section/CertificatesSection"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -30,6 +31,7 @@ function App() {
         <Project/>
         <CertificatesSection/>
         <Footer/>
+        <Analytics />
       </div>
 
     </div>
