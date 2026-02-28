@@ -13,7 +13,7 @@ const HeroSection = () => {
         {
           name : "Download CV",
           logo : <Download size={16}/>,
-          link : "https://drive.google.com/file/d/1ADpbafyDsjUz3lUerfgCBE6YMVKkGN6B/view?usp=sharing"
+          link : "https://drive.google.com/file/d/13pXj1Ri7n3trczgZxmYTEeFxK98NTGkt/view?usp=sharing"
         }
     ]
       
@@ -72,7 +72,7 @@ const HeroSection = () => {
         </div>
 
         <div className="mt-4 border-b-1 pb-6 border-gray-800">
-          <ul className="flex flex-wrap items-center space-x-4">
+          <ul className="flex flex-wrap items-center space-x-2">
             {aboutButtons.map((button) => (
               <Button icon={button.logo} name={button.name} link={button.link} key={button.name}/>
             ))}
@@ -81,7 +81,7 @@ const HeroSection = () => {
 
         <div className="mt-4 text-gray-400 border-b-1 pb-6 border-gray-800">
             <p>Where to find me if you wish to</p>
-            <ul className="flex flex-wrap items-center space-x-4 mt-4">
+            <ul className="flex flex-wrap items-center space-x-2 mt-4">
               {findButtons.map((button) => (
                 <Button icon={button.logo} name={button.name} link={button.link} key={button.name}/>
               ))}
