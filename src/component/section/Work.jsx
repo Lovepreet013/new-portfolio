@@ -27,7 +27,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="text-right">
-                        <p className="text-[#a1a1aa] text-xs sm:text-sm">Jan 2025 - May 2025</p>
+                        <p className="text-[#a1a1aa] text-xs sm:text-sm">Jan 2026 - March 2026</p>
                         <p className="text-[#71717a] text-[10px] sm:text-xs">India, Remote</p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Work = () => {
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#71717a]"></span>
                         </div>
                         <p className="text-[#71717a] text-sm sm:text-sm leading-relaxed">
-                        Collaborated with design team to ensure pixel-perfect implementation of new features, resulting in consistent user experience and gained hands-on experience in consuming RESTful APIs to integrate front-end components with backend services, enhancing application functionality.
+                            Collaborated with design team to ensure pixel-perfect implementation of new features, resulting in consistent user experience and gained hands-on experience in consuming RESTful APIs to integrate front-end components with backend services, enhancing application functionality.
                         </p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="text-right">
-                        <p className="text-[#a1a1aa] text-xs sm:text-sm">May 2024 - July 2024</p>
+                        <p className="text-[#a1a1aa] text-xs sm:text-sm">May 2025 - October 2025</p>
                         <p className="text-[#71717a] text-[10px] sm:text-xs">India, Remote</p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const Work = () => {
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#71717a]"></span>
                         </div>
                         <p className="text-[#71717a] text-sm sm:text-sm leading-relaxed">
-                        Developed responsive UI from Figma wireframes and ensured cross-browser compatibility across major browsers. Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.
+                            Developed responsive UI from Figma wireframes and ensured cross-browser compatibility across major browsers. Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.
                         </p>
                     </div>
                 </div>
