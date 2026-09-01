@@ -10,6 +10,11 @@ const HeroSection = () => {
       logo: <Pulser />,
       link: "https://www.linkedin.com/in/lovepreetsingh013/"
     },
+    {
+      name: "Download CV",
+      logo: <Download size={16} />,
+      link: "https://drive.google.com/file/d/1hqEon7yASvCJ9cPAdMu_MwQxMEKN81Kj/view?usp=sharing"
+    }
   ]
 
   const findButtons = [
@@ -23,6 +28,16 @@ const HeroSection = () => {
       logo: <Github size={16} />,
       link: "https://github.com/Lovepreet013"
     },
+    {
+      name: "Linkedin",
+      logo: <Linkedin size={16} />,
+      link: "https://www.linkedin.com/in/lovepreetsingh013/"
+    },
+    {
+      name: "Twitter",
+      logo: <Twitter size={16} />,
+      link: "https://x.com/Dev_013_"
+    }
   ]
 
   return (
