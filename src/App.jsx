@@ -27,7 +27,7 @@ function App() {
       <div className="max-w-[650px] px-4 mx-auto">
         <HeroSection/>
         <SkillSection/>
-        <Work/>
+        {/* <Work/> */}
         <Project/>
         <CertificatesSection/>
         <Footer/>
