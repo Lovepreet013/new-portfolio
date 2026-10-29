@@ -10,11 +10,11 @@ const HeroSection = () => {
       logo: <Pulser />,
       link: "https://www.linkedin.com/in/lovepreetsingh013/"
     },
-    {
-      name: "Download CV",
-      logo: <Download size={16} />,
-      link: "https://drive.google.com/file/d/1hqEon7yASvCJ9cPAdMu_MwQxMEKN81Kj/view?usp=sharing"
-    }
+    // {
+    //   name: "Download CV",
+    //   logo: <Download size={16} />,
+    //   link: "https://drive.google.com/file/d/1hqEon7yASvCJ9cPAdMu_MwQxMEKN81Kj/view?usp=sharing"
+    // }
   ]
 
   const findButtons = [
